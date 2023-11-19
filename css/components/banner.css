@@ -1,0 +1,82 @@
+.banner{
+  text-align: center;
+  color: white;
+  padding: 130px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url(https://cdn.discordapp.com/attachments/702568810900750527/1174843114242973716/David__converse.png?ex=656910e9&is=65569be9&hm=d4352b2f39451fdd024e3b285a529e1acd099b201f675772b38391fe20188efe&);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  color: black;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Abril Fatface', serif;
+}
+
+.banner h1 {
+  font-size: 60px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  color: black;
+  font-family: 'Abril Fatface', serif;
+}
+
+
+.banner-top {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-item {
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner-item:hover {
+    text-decoration: underline;
+}
+
+
+.footer-banner {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 150px
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section p {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section p:hover {
+    color: #007bff;
+}
